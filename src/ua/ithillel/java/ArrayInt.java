@@ -17,9 +17,9 @@ public class ArrayInt {
         score[2][2] = 32;
         score[2][3] = 33;
         System.out.println("[");
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < score.length; i++) {
             System.out.print("   [");
-            for (int j = 0; j < 4; j++) {
+            for (int j = 0; j < score[i].length; j++) {
                 System.out.print("," + score[i][j]);
             }
             System.out.println("]" + ",");
